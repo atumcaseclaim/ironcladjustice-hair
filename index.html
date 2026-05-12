@@ -12,10 +12,11 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; background: #f8fafc; color: #111827; line-height: 1.6; }
     a { text-decoration: none; color: #2563eb; }
-    nav { position: sticky; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0.96); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,0.08); padding: 18px 0; }
-    .nav-container { width: 90%; max-width: 1200px; margin: auto; }
-    .logo { font-size: 1.8rem; font-weight: 800; color: white; letter-spacing: -0.5px; }
-    .logo span { color: #d4a017; }
+    .icj-nav { background: rgba(15, 23, 42, 0.96); border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .icj-nav-inner { display: flex; justify-content: space-between; align-items: center; padding: 22px 40px; max-width: 1200px; margin: auto; }
+    .icj-logo { font-size: 1.8rem; font-weight: 800; color: white; letter-spacing: -0.5px; text-decoration: none; }
+    .icj-logo span { color: #d4a017; }
+    .icj-cta { color: #d4a017; font-weight: 800; font-size: 1.4rem; letter-spacing: 0.5px; text-transform: uppercase; }
     .container { width: 90%; max-width: 1200px; margin: auto; }
     section { padding: 50px 0; }
     .header-section { background: rgba(15, 23, 42, 0.04); padding: 40px 0; border-bottom: 1px solid #e5e7eb; }
@@ -51,11 +52,12 @@
 </head>
 <body>
 
-<nav>
-  <div class="nav-container">
-    <div class="logo">Iron <span>Clad</span> Justice</div>
+<header class="icj-nav">
+  <div class="icj-nav-inner">
+    <div class="icj-logo">Iron <span>Clad</span> Justice</div>
+    <div class="icj-cta">FILE YOUR FREE CLAIM TODAY!</div>
   </div>
-</nav>
+</header>
 
 <div class="header-section">
   <div class="container">
@@ -186,4 +188,4 @@
 </footer>
 
 </body>
-</html>
+</html><!-- Build trigger: 1778577139 -->
